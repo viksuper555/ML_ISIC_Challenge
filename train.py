@@ -35,7 +35,7 @@ METRICS = [
 # ])
 
 model = keras.models.load_model("saved_model/")
-# model.load_weights("saved_weights/")
+model.load_weights("saved_weights/")
 
 train_datagen = ImageDataGenerator(
     rescale=1.0 / 255,

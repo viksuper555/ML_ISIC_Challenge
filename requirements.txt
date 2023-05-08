@@ -6,3 +6,4 @@ MarkupSafe
 Werkzeug
 tensorflow
 keras
+Pillow
